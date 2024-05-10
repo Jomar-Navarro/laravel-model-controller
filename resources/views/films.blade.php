@@ -7,7 +7,7 @@
         <div class="d-flex flex-wrap justify-content-center">
             @foreach ($films as $film)
             <div class="card m-3" style="width: 18rem;">
-                <div class="card-body">
+                <div class="card-body text-center">
                     <h5 class="card-title">{{ $film->title }}</h5>
                     <h5 class="card-subtitle">{{ $film->original_title }}</h5>
                     <p class="card-text">{{ $film->nationality }}</p>

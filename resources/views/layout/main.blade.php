@@ -9,7 +9,7 @@
     @vite('resources/js/app.js')
     <title>laravel-model-controller</title>
 </head>
-<body>
+<body class="bg-secondary">
     @include('partials.header')
 
     <main>

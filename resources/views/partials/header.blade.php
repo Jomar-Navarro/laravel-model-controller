@@ -1,4 +1,4 @@
-<header class="bg-secondary">
+<header class="bg-primary">
     <div class="container">
         <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid">
