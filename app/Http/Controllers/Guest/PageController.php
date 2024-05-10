@@ -15,7 +15,7 @@ class PageController extends Controller
 
     public function films(){
 
-        $films = Film::all();
+        $films = Film::orderby('title')->get();
 
         return view('films', compact('films'));
     }
